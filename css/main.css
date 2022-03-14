@@ -1,0 +1,78 @@
+html{
+    background-color: rgb(53,54,58);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.header{
+   align-items: center;
+   
+}
+    
+ h1
+{
+      margin: 3cm;
+    text-align: center;
+     border: solid 3px #aeaeae;
+     }
+h3{
+    text-align: center;
+    
+
+}
+p{
+    text-align: center;
+    text-transform: capitalize ;
+    text-align-last: center;
+    border: solid 3px #aeaeae;
+    margin: 6cm;
+}
+.wrapper        
+    {
+
+    
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+  .one {
+    grid-column: 1 ;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1 ;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 1 ;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 2;
+  }
+  .seven{
+grid-column: 1;
+grid-row: 3;
+  }
+ .eight{
+     grid-column: 2;
+     grid-row: 3;
+    
+ }
+ .nine{
+     grid-column: 3;
+     grid-row: 3;
+ }
+
+ 
