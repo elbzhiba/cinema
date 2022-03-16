@@ -1,78 +1,75 @@
-html{
-    background-color: rgb(53,54,58);
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
+body{
+  background-color: #F8F8F8; 
+  margin: 0px;
 }
-.header{
-   align-items: center;
-   
+header{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center; 
 }
-    
+header > img{
+  margin-left: 10px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+li{
+  display: flex;
+}
+ul{
+  padding: 0 10px;
+}
+ul > a{
+  text-decoration: none;
+}
+main{
+  margin: 50px;
+}
  h1
 {
-      margin: 3cm;
-    text-align: center;
-     border: solid 3px #aeaeae;
-     }
-h3{
-    text-align: center;
-    
 
 }
-p{
-    text-align: center;
-    text-transform: capitalize ;
-    text-align-last: center;
-    border: solid 3px #aeaeae;
-    margin: 6cm;
+h2{
+  text-align: center;
 }
-.wrapper        
-    {
+#container-detail{
+  border-style: solid;
+  border-radius: 2px;
+  border-color: black;
+  padding: 10px 0;
+}
 
-    
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-  .one {
-    grid-column: 1 ;
-    grid-row: 1;
-  }
-  .two {
-    grid-column: 2;
-    grid-row: 1 ;
-  }
-  .three {
-    grid-column: 3;
-    grid-row: 1;
-  }
-  .four {
-    grid-column: 1 ;
-    grid-row: 2;
-  }
-  .five {
-    grid-column: 2;
-    grid-row: 2;
-  }
-  .six {
-    grid-column: 3;
-    grid-row: 2;
-  }
-  .seven{
-grid-column: 1;
-grid-row: 3;
-  }
- .eight{
-     grid-column: 2;
-     grid-row: 3;
-    
- }
- .nine{
-     grid-column: 3;
-     grid-row: 3;
- }
 
- 
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-around;
+  align-items: stretch;
+}
+.film{
+  display: flex;
+    flex-direction: column;
+    margin: 15px;
+    width: 220px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+ .film > img{
+   height: 250px;
+   width: 220px;
+ }
+ .film > a{
+   text-decoration: none;
+   margin-top: 5px;
+   height: 25px;
+   font-size: 14px;
+   display: inline-block;
+ }
