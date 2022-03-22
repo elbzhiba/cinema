@@ -5,6 +5,5 @@
 ### Pour cloner le projet : `file:///C:/Users/elbou/OneDrive/Bureau/cinema/index.html`
 
 ### Chartes graphiques : 
- ![Alt text](relative/path/to/img/png?raw=true "cinema")
- ![plot](./asset/cinema.png/
- )
+ (relative/path/to/img/png?raw=true "cinema")
+ (./asset/cinema.png/)
