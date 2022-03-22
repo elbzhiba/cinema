@@ -6,4 +6,5 @@
 
 ### Chartes graphiques : 
  ![Alt text](relative/path/to/img/png?raw=true "cinema")
- ![plot](./asset/cinema.png/plot.png)
+ ![plot](./asset/cinema.png/
+ )
