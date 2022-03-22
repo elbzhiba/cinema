@@ -1,4 +1,4 @@
-# Projet 
+# Projet CINEMA
 
 ## Développement d’une page publicitaire pour une chaîne Streaming
 
