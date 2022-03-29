@@ -7,4 +7,4 @@
 
 ### Chartes graphiques : 
 
- ![plot](./asset/cinema.png/)
+ ![plot](./asset/chartegraphique.png/)
