@@ -3,7 +3,7 @@
 ## Développement d’une page publicitaire pour une chaîne Streaming
 
 ### Pour AFFICHER le projet :
-[afficher le site](`https://elbzhiba.github.io/cinema/`)
+![afficher le site](`https://elbzhiba.github.io/cinema/`)
 ### Charte de police :
 Dans ce site j'ai utilisé le style de police suivant :
 "Montserrat
