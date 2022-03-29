@@ -4,11 +4,9 @@
 
 ### Pour AFFICHER le projet :
 [afficher le site](`https://elbzhiba.github.io/cinema/`)
-
-### Chartes graphiques : 
+### Charte de police :
 Dans ce site j'ai utilisé le style de police suivant :
-"Montserrat"
+"Montserrat
+### Chartes graphiques : 
 
-
-
-(./asset/chartegraphique.png/)
+ ![plot](./asset/chartegraphique.png/)
