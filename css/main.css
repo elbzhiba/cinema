@@ -1,134 +1,151 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;600;700&display=swap');
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+*{
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+figure{
+  margin: 0;
+}
+img{
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  object-fit: cover;
+}
+h1,h2,h3, figure, p, ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 body{
-  background-color: #F0F7FF; 
+  background-color: #feffed; 
   margin: 0px;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 18px;
+  font: 1.6rem "Montserrat", sans-serif;
+  line-height: 1.5;
 }
 header{
-  background-color: white;
+  background-color: #feffed;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: center; 
+  align-items: center;
+  background-color: #222;
 }
-header > img{
-  margin-left: 10px;
+
+header  img{
+ /*  margin-left: 1.0rem;
+  width: initial; */
 }
-header > h1{
-  color: #003563;
+header  h1{
+  color: #fafafa;
+  font-size: 2.8rem;
+  font-weight: 300;
 }
 main{
   color: #464646;
-  margin: 50px;
+  margin: 5.0rem;
 }
- h1
-{
-  font-size: 28px;
-}
-h2{
-  font-size: 24px;
+
+section h2{
+  font-size: 2.4rem;
   text-align: center;
-  margin: 20px 0;
+  margin: 2.0rem 0;
+}
+figure h2{
+  margin: 0;
 }
 #container-detail{
   color: #464646;
-  margin: 10px 0;
-  border-style: solid;
-  border-radius: 2px;
-  border-color: #464646;
-  padding: 10px;
+  margin: 1.0rem 0;
+
+  padding: 1.0rem;
+}
+/* theme detail */
+.grid-figure{
+  max-width: 80rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
 }
 
+.grid-figure p{
+  text-align: justify;
+}
+.grid-figure ul{
+  padding-top: 1rem;
+}
+.wrapper ul{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+ul .film figcaption{
 
-.wrapper{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-content: space-around;
-  align-items: stretch;
-  margin:50px 0;
+  padding: 1rem 0 0;
+   
 }
-.film{
-  display: flex;
-    flex-direction: column;
-    margin: 15px;
-    width: 220px;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
- .film > img{
-   height: 250px;
-   width: 220px;
- }
- .film > a{
-   text-align: center;
-   text-decoration: none;
-   margin-top: 15px;
-   font-size: 16px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+
+ ul .film  a{
+display: block;
 color: white;
-background: linear-gradient(96.16deg, #2F76C0 3.98%, #3BCDB3 72.64%);
+background: linear-gradient(96.16deg, #970808 3.98%, #ff1e1e 72.64%);
 border: 1px solid;
-  transition: background 0.3s;
-  cursor: pointer;
-  text-align: center;
-  border-radius: 5px;
-  font-weight: 500;
+line-height: 3.5rem;
+cursor: pointer;
+text-align: center;
+border-radius: 0.5rem;
+font-weight: 500;
+border-radius: .4rem;
+text-decoration: none;
 
-border-radius: 335px;
-   width: 220px;
-   height: 30px;
-   padding: 5px 0;
+}
+/
 
- }
- .film > a:hover{
-  transition: color 0.3s;
-
-  color: #464646;
-  background: #fff;
-  border: 1px solid;
-  border-color: #2F7DC0;
- }
  .container-button{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+
  }
 .container-button a{
   text-decoration: none;
 }
 .button-blue{
-  background: rgb(47,118,192);
-background: radial-gradient(circle, rgba(47,118,192,1) 0%, rgba(59,205,179,1) 100%);
+  display: block;
+  background: #ff1e1e 44%;
+background: radial-gradient(circle, #f11d1d 52%, #970808 100%);
   color: white;
-  padding: 15px;
-  border-radius: 99px;
-  border: 1px solid;
+  padding: 1.5rem;
+  border-radius: .4;
+  border: 1rem solid;
+  max-width: 30rem;
+  margin: 2rem auto;
+  text-align: center;
 }
 .button-blue:hover{
   transition: color 0.3s;
 
   color: #464646;
   background: #fff;
-  border: 1px solid;
-  border-color: #2F7DC0;
+  border: 1rem solid;
+  border-color: #ff1e1e;
 }
  footer{
    background-color: white;
-   color: #464646;
-   padding: 20px 10px;
+   color: #fafafa;
+   padding: 2.0rem 1.0rem;
+   background-color: #222;
  }
  footer p{
    text-align: center;
