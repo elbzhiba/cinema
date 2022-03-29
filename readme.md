@@ -11,4 +11,4 @@ Dans ce site j'ai utilisé le style de police suivant :
 
 
 
- ![plot](./asset/chartegraphique.png/)
+(./asset/chartegraphique.png/)
