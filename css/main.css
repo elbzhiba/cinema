@@ -29,13 +29,13 @@ h1,h2,h3, figure, p, ul, ol{
   list-style: none;
 }
 body{
-  background-color: #feffed; 
+  background-color: #566573 ; 
   margin: 0px;
   font: 1.6rem "Montserrat", sans-serif;
   line-height: 1.5;
 }
 header{
-  background-color: #feffed;
+  background-color: #566573 ;
   padding: 10px 0;
   display: flex;
   flex-direction: row;
@@ -43,19 +43,18 @@ header{
   justify-content: space-around;
   align-items: center;
   background-color: #222;
+ 
 }
 
-header  img{
- /*  margin-left: 1.0rem;
-  width: initial; */
-}
+
 header  h1{
   color: #fafafa;
   font-size: 2.8rem;
   font-weight: 300;
+  
 }
 main{
-  color: #464646;
+  color: #222;
   margin: 5.0rem;
 }
 
@@ -68,7 +67,7 @@ figure h2{
   margin: 0;
 }
 #container-detail{
-  color: #464646;
+  color: #222;
   margin: 1.0rem 0;
 
   padding: 1.0rem;
@@ -132,7 +131,7 @@ background: radial-gradient(circle, #f11d1d 52%, #970808 100%);
 .button-blue:hover{
   transition: color 0.3s;
 
-  color: #464646;
+  color: #222;
   background: #fff;
   border: 1rem solid;
   border-color: #ff1e1e;
@@ -146,3 +145,16 @@ background: radial-gradient(circle, #f11d1d 52%, #970808 100%);
  footer p{
    text-align: center;
  }
+ header img{
+ width : initial
+
+}
+fieldset{
+  text-align: center;
+}
+footer{
+  position: fixed
+  botom : 0;
+  margin : 0;
+  width 
+}
