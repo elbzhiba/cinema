@@ -101,7 +101,7 @@ ul .film figcaption{
  ul .film  a{
 display: block;
 color: white;
-background: linear-gradient(96.16deg, #970808 3.98%, #ff1e1e 72.64%);
+background: linear-gradient(96.16deg, #271df1 3.98%, #083b97  72.64%);
 border: 1px solid;
 line-height: 3.5rem;
 cursor: pointer;
@@ -118,8 +118,8 @@ text-decoration: none;
 }
 .button-blue{
   display: block;
-  background: #ff1e1e 44%;
-background: radial-gradient(circle, #f11d1d 52%, #970808 100%);
+  background: #1045ea 44%;
+background: radial-gradient(circle, #083b97 52%, #1045ea 100%);
   color: white;
   padding: 1.5rem;
   border-radius: .4;
