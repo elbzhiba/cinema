@@ -54,7 +54,7 @@ header  h1{
   
 }
 main{
-  color: #222;
+  color: #fff;
   margin: 5.0rem;
 }
 
@@ -67,7 +67,7 @@ figure h2{
   margin: 0;
 }
 #container-detail{
-  color: #222;
+  color: #fff;
   margin: 1.0rem 0;
 
   padding: 1.0rem;
@@ -101,7 +101,7 @@ ul .film figcaption{
  ul .film  a{
 display: block;
 color: white;
-background: linear-gradient(96.16deg, #271df1 3.98%, #083b97  72.64%);
+background: linear-gradient(96.16deg, #558af1 3.98%, #4c85f4  72.64%);
 border: 1px solid;
 line-height: 3.5rem;
 cursor: pointer;
@@ -116,10 +116,10 @@ text-decoration: none;
 .container-button a{
   text-decoration: none;
 }
-.button-blue{
+.button-blue a{
   display: block;
   background: #1045ea 44%;
-background: radial-gradient(circle, #083b97 52%, #1045ea 100%);
+background: radial-gradient(circle, #4c85f4 52%, #558af1 100%);
   color: white;
   padding: 1.5rem;
   border-radius: .4;
@@ -134,7 +134,7 @@ background: radial-gradient(circle, #083b97 52%, #1045ea 100%);
   color: #222;
   background: #fff;
   border: 1rem solid;
-  border-color: #ff1e1e;
+  border-color: #0daba1;
 }
  footer{
    background-color: white;
@@ -152,9 +152,22 @@ background: radial-gradient(circle, #083b97 52%, #1045ea 100%);
 fieldset{
   text-align: center;
 }
-footer{
-  position: fixed
-  botom : 0;
-  margin : 0;
-  width 
+.button-blue {
+  display: block;
+  background: #1045ea 44%;
+background: radial-gradient(circle, #4c85f4 52%, #558af1 100%);
+  color: white;
+  padding: 1rem;
+  border-radius: .4;
+  border: 1rem solid;
+  max-width: 30rem;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+strong{
+  color: #222;
+}
+h2{
+  color: #222;
 }
