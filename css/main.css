@@ -7,6 +7,12 @@
 html{
   font-size: 62.5%;
 }
+body{
+  background-color: #566573 ; 
+  margin: 0px;
+  font: 1.6rem "Montserrat", sans-serif;
+  line-height: 1.5;
+}
 *{
   box-sizing: border-box;
 }
@@ -23,17 +29,13 @@ img{
   vertical-align: middle;
   object-fit: cover;
 }
+
 h1,h2,h3, figure, p, ul, ol{
   margin: 0;
   padding: 0;
   list-style: none;
 }
-body{
-  background-color: #566573 ; 
-  margin: 0px;
-  font: 1.6rem "Montserrat", sans-serif;
-  line-height: 1.5;
-}
+
 header{
   background-color: #566573 ;
   padding: 10px 0;
@@ -77,7 +79,7 @@ figure h2{
   max-width: 80rem;
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat( 1, 1fr);
+  grid-template-columns: repeat( 2, 1fr);
   gap: 1rem;
 }
 
@@ -89,7 +91,7 @@ figure h2{
 }
 .wrapper ul{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
 }
 ul .film figcaption{
@@ -143,15 +145,19 @@ background: radial-gradient(circle, #4c85f4 52%, #558af1 100%);
    background-color: #222;
  }
  footer p{
+   display: grid;
+   align-items: center;
+   height: 20vh;
+   font-size: smaller;
    text-align: center;
+   background-color: #222;
  }
  header img{
  width : initial
 
 }
-fieldset{
-  text-align: center;
-}
+
+
 .button-blue {
   display: block;
   background: #1045ea 44%;
@@ -184,4 +190,33 @@ form{
     text-transform: uppercase;
     vertical-align: middle;
 
+  }
+ 
+  @media screen and (max-width: 900px) {
+    main {
+      margin: 0em 1em 0em 1em;
+    }
+    header {
+      text-align: center;
+    }
+    h2 {
+      font-size: 3em;
+    }
+    #grid > ul {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, 1fr);
+      gap: 1em;
+    }
+    a > p {
+      text-align: center;
+      color: #fff;
+      font-size: large;
+      font-weight: 500;
+      background-color: #ff725c;
+      padding: 0.5em;
+      padding-left: 2em;
+      padding-right: 2em;
+      transition: background-color 0.5s;
+    }
   }
