@@ -9,4 +9,4 @@ Dans ce site j'ai utilisé le style de police suivant :
 ![plot](./asset/police.png/)
 ### Chartes graphiques : 
 
- ![plot](./asset/chartegraphique.png/)
+ ![plot](./asset/charte.png/)
