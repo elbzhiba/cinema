@@ -153,8 +153,13 @@ background: radial-gradient(circle, #4c85f4 52%, #558af1 100%);
    background-color: #222;
  }
  header img{
- width : initial
 
+    position: absolute; 
+    top: 1rem;
+    left: 1rem;
+    height : 7.3rem;
+    width : 8rem;
+    object-fit: cover;
 }
 fieldset form a {
   display: block
