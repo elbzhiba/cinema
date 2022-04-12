@@ -156,7 +156,9 @@ background: radial-gradient(circle, #4c85f4 52%, #558af1 100%);
  width : initial
 
 }
-
+fieldset form a {
+  display: block
+}
 
 .button-blue {
   display: block;
@@ -213,7 +215,7 @@ form{
       color: #fff;
       font-size: large;
       font-weight: 500;
-      background-color: #ff725c;
+      background-color: #4c85f4;
       padding: 0.5em;
       padding-left: 2em;
       padding-right: 2em;
