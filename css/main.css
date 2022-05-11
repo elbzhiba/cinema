@@ -55,10 +55,6 @@ header  h1{
   font-weight: 300;
   
 }
-main{
-  color: #fff;
-  margin: 5.0rem;
-}
 
 section h2{
   font-size: 2.4rem;
@@ -147,7 +143,7 @@ background: radial-gradient(circle, #4c85f4 52%, #558af1 100%);
  footer p{
    display: grid;
    align-items: center;
-   height: 20vh;
+   height: 100vh;
    font-size: smaller;
    text-align: center;
    background-color: #222;
@@ -209,9 +205,9 @@ form{
     h2 {
       font-size: 3em;
     }
-    #grid > ul {
+    #grid > li {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-template-rows: repeat(2, 1fr);
       gap: 1em;
     }
